@@ -3,7 +3,7 @@ id: clothes
 title: Les vêtements
 ---
 
-[L'essentiel](#l-essentiel)
+[L'essentiel](#lessentiel)
 
 ---
 

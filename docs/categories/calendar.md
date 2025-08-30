@@ -7,7 +7,7 @@ title: Le calendrier
 
 [2. Les **jours de la semaine**](#2-les-jours-de-la-semaine)
 
-[3. Les **mois de l'année**](#3-les-mois-de-l-annee)
+[3. Les **mois de l'année**](#3-les-mois-de-lannée)
 
 ---
 

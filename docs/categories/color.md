@@ -13,11 +13,11 @@ Les couleurs du drapeau français : **bleu, blanc, rouge** ! Mais attention, on 
 "**Voir la vie en rose**" = être optimiste ! Merci Édith Piaf pour cette magnifique expression ! 🌹
 :::
 
-[1. L'essentiel](#1-l-essentiel)
+[1. L'essentiel](#1-lessentiel-)
 
-[2. Les nuances](#2-les-nuances)
+[2. Les nuances](#2-les-nuances-)
 
-[3. Les expressions avec les couleurs](#3-les-expressions-avec-les-couleurs)
+[3. Les expressions avec les couleurs](#3-les-expressions-avec-les-couleurs-️)
 
 ---
 

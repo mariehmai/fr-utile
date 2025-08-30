@@ -13,17 +13,17 @@ La France produit plus de 400 variétés de fromages ! C'est pourquoi on dit qu'
 "**En faire tout un fromage**" = exagérer l'importance de quelque chose. Parce qu'en France, rien n'est plus important que le fromage ! 😄
 :::
 
-[0. Les **\*tu dois connaître\***](#0-les-tu-dois-connaitre)
+[0. Les **\*tu dois connaître\***](#0-les-tu-dois-connaître-)
 
-[1. Les **fruits** et **légumes**](#1-les-fruits-et-legumes)
+[1. Les **fruits** et **légumes**](#1-les-fruits-et-légumes-)
 
 [2. Les **condiments**](#2-les-condiments)
 
 [3. Les **cuissons**](#3-les-cuissons)
 
-[4. Les **repas**](#4-les-repas)
+[4. Les **repas**](#4-les-repas-)
 
-[5. Les **expressions** amusantes](#5-les-expressions-amusantes)
+[5. Les **expressions** amusantes](#5-les-expressions-amusantes-)
 
 ---
 

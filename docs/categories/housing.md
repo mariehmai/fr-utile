@@ -3,7 +3,7 @@ id: housing
 title: La maison
 ---
 
-[1. Les **pièces** de la **maison**](#1-les-pieces-de-la-maison)
+[1. Les **pièces** de la **maison**](#1-les-pièces-de-la-maison)
 
 [2. Le vocabulaire de **chez soi**](#2-le-vocabulaire-de-chez-soi)
 
