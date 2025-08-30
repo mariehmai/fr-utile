@@ -1,0 +1,311 @@
+.exerciseCard {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.exerciseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.exerciseIcon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.backButton {
+  margin-bottom: 1.5rem;
+}
+
+.quizContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.progress {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.questionCard {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.questionCard h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  color: #2e3440;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.options button {
+  padding: 0.8rem 1.2rem;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.answerStatus {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.questionDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.questionDot.answered {
+  background-color: #28a745;
+}
+
+.questionDot.current {
+  background-color: #007bff;
+  transform: scale(1.3);
+}
+
+.resultsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.scoreDisplay {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.scoreBar {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.scoreProgress {
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.solutionCard {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.answerReview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.answerOption {
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  border: 2px solid transparent;
+}
+
+.answerOption.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.answerOption.incorrect {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.answerOption.selected {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.explanation {
+  background-color: #e7f3ff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border-left: 4px solid #007bff;
+}
+
+.resultIndicator {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.resultIndicator.correct {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.resultIndicator.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.levelSection {
+  margin-bottom: 3rem;
+}
+
+.levelHeader {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.levelDescription {
+  margin: 0.5rem 0 0 0;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.exerciseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.exerciseMetadata {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.metadata {
+  font-size: 0.85rem;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.progressionInfo {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.progressionInfo h3 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.levelFeedback {
+  margin-bottom: 2rem;
+}
+
+.levelStatus {
+  background: white;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.levelSuccess {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #155724;
+}
+
+.levelProgress {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #856404;
+}
+
+.levelNeedsWork {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #721c24;
+}
+
+@media (max-width: 768px) {
+  .questionCard {
+    padding: 1.5rem;
+  }
+  
+  .navigation {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .options {
+    gap: 0.6rem;
+  }
+  
+  .answerReview {
+    gap: 0.4rem;
+  }
+
+  .exerciseHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .exerciseMetadata {
+    gap: 0.5rem;
+  }
+
+  .levelHeader {
+    padding: 1rem;
+  }
+}

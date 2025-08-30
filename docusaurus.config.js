@@ -53,6 +53,11 @@ const config = {
             position: "left",
             label: "Vocabulaire",
           },
+          {
+            to: "/exercices",
+            position: "left",
+            label: "Exercices",
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: "https://github.com/mariehmai/fr-utile",
