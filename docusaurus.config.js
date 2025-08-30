@@ -1,37 +1,37 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Français Utile',
-  tagline: 'Un site pour débuter en français',
-  url: 'https://francais-utile.vercel.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'mariehmai',
-  projectName: 'fr-utile',
+  title: "Français Utile",
+  tagline: "Un site pour débuter en français",
+  url: "https://francais-utile.vercel.app",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "mariehmai",
+  projectName: "fr-utile",
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mariehmai/fr-utile',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/mariehmai/fr-utile",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/mariehmai/fr-utile',
+          editUrl: "https://github.com/mariehmai/fr-utile",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -41,48 +41,48 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Français Utile',
+        title: "Français Utile",
         logo: {
-          alt: 'Apprendre le français',
-          src: 'img/logo.svg',
+          alt: "Apprendre le français",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Vocabulaire',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Vocabulaire",
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/mariehmai/fr-utile',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/mariehmai/fr-utile",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Vocabulaire',
-                to: '/docs/intro',
+                label: "Vocabulaire",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               // {
               //   label: 'Blog',
               //   to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/mariehmai/fr-utile',
+                label: "GitHub",
+                href: "https://github.com/mariehmai/fr-utile",
               },
             ],
           },
