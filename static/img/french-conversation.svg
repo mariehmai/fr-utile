@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8f9fa" stroke="#EF4135" stroke-width="3"/>
+  
+  <!-- Speech bubbles -->
+  <ellipse cx="75" cy="80" rx="25" ry="18" fill="#0055A4"/>
+  <polygon points="65,95 75,88 85,95" fill="#0055A4"/>
+  
+  <ellipse cx="125" cy="120" rx="25" ry="18" fill="#EF4135"/>
+  <polygon points="115,105 125,112 135,105" fill="#EF4135"/>
+  
+  <!-- French text in bubbles -->
+  <text x="75" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">Bonjour!</text>
+  <text x="75" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">Comment</text>
+  <text x="75" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="white">ça va?</text>
+  
+  <text x="125" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">Ça va</text>
+  <text x="125" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">bien!</text>
+  
+  <!-- People silhouettes -->
+  <circle cx="60" cy="140" r="12" fill="#6c757d"/>
+  <rect x="48" y="148" width="24" height="30" rx="12" fill="#6c757d"/>
+  
+  <circle cx="140" cy="140" r="12" fill="#6c757d"/>
+  <rect x="128" y="148" width="24" height="30" rx="12" fill="#6c757d"/>
+  
+  <!-- Decorative French elements -->
+  <path d="M30,170 Q35,165 40,170 Q45,175 50,170" stroke="#FFD700" stroke-width="2" fill="none"/>
+  <path d="M150,30 Q155,25 160,30 Q165,35 170,30" stroke="#FFD700" stroke-width="2" fill="none"/>
+  
+  <!-- Hearts -->
+  <path d="M160,60 C160,55 165,55 165,60 C165,55 170,55 170,60 C170,70 165,75 165,75 C165,75 160,70 160,60 Z" fill="#EF4135" opacity="0.8"/>
+</svg>

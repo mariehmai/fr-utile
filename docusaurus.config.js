@@ -44,7 +44,7 @@ const config = {
         title: "Français Utile",
         logo: {
           alt: "Apprendre le français",
-          src: "img/logo.svg",
+          src: "img/french-logo.svg",
         },
         items: [
           {

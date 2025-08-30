@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- French flag stripes as background -->
+  <rect x="0" y="0" width="11" height="32" fill="#0055A4"/>
+  <rect x="11" y="0" width="11" height="32" fill="white"/>
+  <rect x="22" y="0" width="10" height="32" fill="#EF4135"/>
+  
+  <!-- Elegant "FR" text overlay -->
+  <text x="16" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold" stroke="#0055A4" stroke-width="0.5">FR</text>
+</svg>

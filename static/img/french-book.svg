@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with French flag colors -->
+  <circle cx="100" cy="100" r="95" fill="#f8f9fa" stroke="#0055A4" stroke-width="3"/>
+  
+  <!-- Book -->
+  <rect x="70" y="60" width="60" height="80" rx="4" fill="#0055A4"/>
+  <rect x="72" y="62" width="56" height="76" rx="2" fill="white"/>
+  
+  <!-- French flag on book cover -->
+  <rect x="78" y="80" width="18" height="12" fill="#0055A4"/>
+  <rect x="96" y="80" width="18" height="12" fill="white"/>
+  <rect x="114" y="80" width="18" height="12" fill="#EF4135"/>
+  
+  <!-- Book pages -->
+  <rect x="74" y="100" width="52" height="2" fill="#e9ecef"/>
+  <rect x="74" y="105" width="48" height="2" fill="#e9ecef"/>
+  <rect x="74" y="110" width="50" height="2" fill="#e9ecef"/>
+  <rect x="74" y="115" width="46" height="2" fill="#e9ecef"/>
+  
+  <!-- French text on cover -->
+  <text x="100" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0055A4" font-weight="bold">FRANÇAIS</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="50" r="8" fill="#FFD700" opacity="0.8"/>
+  <circle cx="140" cy="45" r="6" fill="#EF4135" opacity="0.8"/>
+  <circle cx="150" cy="150" r="10" fill="#0055A4" opacity="0.6"/>
+  <circle cx="50" cy="160" r="7" fill="#FFD700" opacity="0.7"/>
+</svg>

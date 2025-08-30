@@ -1,40 +1,28 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: 'Vocabulaire',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Un dictionnaire des mots courants de la langue française
-      </>
-    ),
+    title: "Vocabulaire",
+    Svg: require("../../static/img/french-book.svg").default,
+    description: <>Un dictionnaire des mots courants de la langue française</>,
   },
   {
-    title: 'Expressions',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Des expressions et situations de la vie courante
-      </>
-    ),
+    title: "Expressions",
+    Svg: require("../../static/img/french-conversation.svg").default,
+    description: <>Des expressions et situations de la vie courante</>,
   },
   {
-    title: 'Règles',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Conjugaison, grammaire, et règles communes
-      </>
-    ),
+    title: "Règles",
+    Svg: require("../../static/img/french-grammar.svg").default,
+    description: <>Conjugaison, grammaire, et règles communes</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>

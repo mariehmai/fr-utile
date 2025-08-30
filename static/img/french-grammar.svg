@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8f9fa" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Chalkboard -->
+  <rect x="50" y="50" width="100" height="70" rx="5" fill="#2d3748"/>
+  <rect x="55" y="55" width="90" height="60" rx="3" fill="#1a202c"/>
+  
+  <!-- French grammar on chalkboard -->
+  <text x="100" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFD700" font-weight="bold">Grammaire</text>
+  
+  <!-- Conjugation example -->
+  <text x="60" y="85" font-family="Arial, sans-serif" font-size="8" fill="white">être:</text>
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="7" fill="#90cdf4">je suis</text>
+  <text x="60" y="103" font-family="Arial, sans-serif" font-size="7" fill="#90cdf4">tu es</text>
+  <text x="110" y="95" font-family="Arial, sans-serif" font-size="7" fill="#90cdf4">il/elle est</text>
+  <text x="110" y="103" font-family="Arial, sans-serif" font-size="7" fill="#90cdf4">nous sommes</text>
+  
+  <!-- Chalk and eraser -->
+  <rect x="45" y="125" width="15" height="3" rx="1.5" fill="white"/>
+  <rect x="140" y="125" width="12" height="8" rx="2" fill="#8B4513"/>
+  
+  <!-- French flag elements -->
+  <rect x="30" y="30" width="6" height="15" fill="#0055A4"/>
+  <rect x="36" y="30" width="6" height="15" fill="white"/>
+  <rect x="42" y="30" width="6" height="15" fill="#EF4135"/>
+  
+  <!-- Decorative academic elements -->
+  <circle cx="170" cy="170" r="8" fill="#0055A4" opacity="0.6"/>
+  <path d="M160,180 L170,170 L180,180" stroke="#EF4135" stroke-width="2" fill="none"/>
+  
+  <!-- Books stack -->
+  <rect x="160" y="50" width="25" height="4" fill="#0055A4"/>
+  <rect x="162" y="46" width="25" height="4" fill="#EF4135"/>
+  <rect x="164" y="42" width="25" height="4" fill="#FFD700"/>
+  
+  <!-- Pencil -->
+  <rect x="20" y="150" width="2" height="20" fill="#FFD700"/>
+  <polygon points="20,150 22,150 21,145" fill="#EF4135"/>
+  <rect x="19" y="165" width="4" height="8" fill="#D2691E"/>
+</svg>

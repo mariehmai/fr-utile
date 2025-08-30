@@ -4,16 +4,60 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* French theme with flag colors: Bleu, Blanc, Rouge */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  /* Primary blue (French flag blue) */
+  --ifm-color-primary: #0055A4;
+  --ifm-color-primary-dark: #004080;
+  --ifm-color-primary-darker: #003366;
+  --ifm-color-primary-darkest: #002B5C;
+  --ifm-color-primary-light: #1A66B8;
+  --ifm-color-primary-lighter: #3377CC;
+  --ifm-color-primary-lightest: #4D88DD;
   --ifm-code-font-size: 95%;
+  
+  /* French flag colors */
+  --french-blue: #0055A4;
+  --french-white: #FFFFFF;
+  --french-red: #EF4135;
+  
+  /* Additional French-themed colors */
+  --accent-red: #EF4135;
+  --accent-gold: #FFD700;
+  --text-muted: #6B7280;
+}
+
+/* French flag inspired gradients and accents */
+.hero--primary {
+  background: linear-gradient(135deg, var(--french-blue) 0%, var(--french-blue) 40%, var(--french-white) 40%, var(--french-white) 60%, var(--french-red) 60%, var(--french-red) 100%) !important;
+  background-size: 300% 300% !important;
+  animation: french-gradient 6s ease infinite !important;
+}
+
+@keyframes french-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero__title, .hero__subtitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: white !important;
+}
+
+/* French accent for buttons */
+.button--secondary {
+  background: var(--french-red) !important;
+  border-color: var(--french-red) !important;
+  color: white !important;
+  transition: all 0.3s ease !important;
+}
+
+.button--secondary:hover {
+  background: #D73527 !important;
+  border-color: #D73527 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 65, 53, 0.3);
 }
 
 .docusaurus-highlight-code-line {

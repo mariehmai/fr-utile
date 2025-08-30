@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with French flag colors -->
+  <circle cx="32" cy="32" r="30" fill="#0055A4"/>
+  <circle cx="32" cy="32" r="22" fill="white"/>
+  <circle cx="32" cy="32" r="14" fill="#EF4135"/>
+  
+  <!-- French "F" in the center -->
+  <text x="32" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white" font-weight="bold">F</text>
+  
+  <!-- Small decorative elements -->
+  <circle cx="18" cy="18" r="2" fill="#FFD700" opacity="0.8"/>
+  <circle cx="46" cy="18" r="2" fill="#FFD700" opacity="0.8"/>
+  <circle cx="18" cy="46" r="2" fill="#FFD700" opacity="0.8"/>
+  <circle cx="46" cy="46" r="2" fill="#FFD700" opacity="0.8"/>
+</svg>
